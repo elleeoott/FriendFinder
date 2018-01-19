@@ -14,5 +14,13 @@ var PORT = 3000;
 
 //Require routing for HTML and API routing files
 
+require("./routing/apiRoutes.js")(app);
+require("./routing/htmlRoutes.js")(app);
 
 //Initialie our server
+
+app.listen(process.env.PORT || 3000, function() {
+
+    console.log("Port is open on " + process.env.PORT);
+
+});
