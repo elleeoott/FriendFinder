@@ -1,0 +1,26 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Packages required for the operation of FriendFinder app.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "Test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edarst/FriendFinder.git"
+  },
+  "author": "Evan Darst, 2018",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edarst/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/edarst/FriendFinder#readme"
+}
