@@ -1,42 +1,102 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <title>FriendFinder Survey</title>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
     <!-- All required CSS, JQuery -->
     <script src="https://code.jquery.com/jquery.js"></script>
 
     <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  
 </head>
 
-  <body>
+<body>
     <div class="container">
         <div class="row">
             <h1 class="center-align">FriendFinder</h1>
-                <br>
-                    <h3 class="center-align">Begin the survey below</h3>
+            <br>
+            <h3 class="center-align">Begin the survey below</h3>
         </div>
 
         <!-- HOLD USER NAME, PHOTO, ETC. -->
     </div>
     <!-- HOLD USER QUESTIONS -->
+    <div class="container">
+        <div class="row">
+            <h5 class="center-align">On a scale of 1 to 5, with 5 being the strongest, please select your level of agreement with the following questions.</h2>
+        </div>
+        <div class="row">
+            <h6>You often wake up on a field in front of 20,000 people and wonder where you are</h6>
+            <div class="input-field col s12">
+                <select>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1, not very strongly</option>
+                    <option value="2">2, somewhat</option>
+                    <option value="3">3, neither poorly or strongly</option>
+                    <option value="4">4, pretty strongly</option>
+                    <option value="5">5, very strongly</option>
+                </select>
+                <label>Choose one option ...</label>
+            </div>
+        </div>
 
-    <div class="input-field col s12">
-    <select>
-      <option value="" disabled selected>Choose your option</option>
-      <option value="1">Option 1</option>
-      <option value="2">Option 2</option>
-      <option value="3">Option 3</option>
-      <option value="4">Option 3</option>
-      <option value="5">Option 3</option>
-    </select>
-    <label>Materialize Select</label>
-  </div>
-  </body>
+        <!-- QUESTION 2 -->
+
+        <div class="row">
+            <h6>You have spent $3,000 on a jacket because you were bored</h6>
+            <div class="input-field col s12">
+                <select>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1, not very strongly</option>
+                    <option value="2">2, somewhat</option>
+                    <option value="3">3, neither poorly or strongly</option>
+                    <option value="4">4, pretty strongly</option>
+                    <option value="5">5, very strongly</option>
+                </select>
+                <label>Choose one option ...</label>
+            </div>
+        </div>
+
+        <!-- QUESTION 3 -->
+
+        <div class="row">
+            <h6>You are inclined to siphon taxable income through various overseas banks</h6>
+            <div class="input-field col s12">
+                <select>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1, not very strongly</option>
+                    <option value="2">2, somewhat</option>
+                    <option value="3">3, neither poorly or strongly</option>
+                    <option value="4">4, pretty strongly</option>
+                    <option value="5">5, very strongly</option>
+                </select>
+                <label>Choose one option ...</label>
+            </div>
+        </div>
+
+        <!-- QUESTION 4 -->
+
+        <div class="row">
+            <h6>It is acceptable to wear an Adidas tracksuit to a formal gathering</h6>
+            <div class="input-field col s12">
+                <select>
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">1, not very strongly</option>
+                    <option value="2">2, somewhat</option>
+                    <option value="3">3, neither poorly or strongly</option>
+                    <option value="4">4, pretty strongly</option>
+                    <option value="5">5, very strongly</option>
+                </select>
+                <label>Choose one option ...</label>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
