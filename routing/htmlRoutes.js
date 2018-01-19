@@ -1,4 +1,8 @@
+//Dependencies
+
 var path = require("path");
+
+//Export method for users to receive the correct HTML filepath
 
 module.exports = function(app) {
 
