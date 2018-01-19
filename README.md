@@ -1,5 +1,6 @@
 # FriendFinder
 
+![alt text]https://image.ibb.co/hjgMGw/friend_finder_gif.gif)
 https://image.ibb.co/hjgMGw/friend_finder_gif.gif
 https://dashboard.heroku.com/apps/secret-citadel-73453
 
